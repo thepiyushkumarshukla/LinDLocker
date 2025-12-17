@@ -30,38 +30,24 @@ Step 3: Make Script Executable
 bash
 
 chmod +x lindlocker.sh
+```
 
-🎯 Quick Start
+## 🎯 Quick Start
 Lock your first directory:
-bash
-
+```bash
 sudo ./lindlocker.sh lock /home/user/secret-files
-
+```
 Unlock when needed:
-bash
+```bash
 
 sudo ./lindlocker.sh unlock /home/user/secret-files
-
+```
 Lock it back:
-bash
+```bash
 
 sudo ./lindlocker.sh close /home/user/secret-files
+```
 
-📖 Complete Command Reference
-Main Commands:
-Command	Description	Example
-lock <dir>	Encrypt and lock directory	sudo ./lindlocker.sh lock /root/.ssh
-unlock <dir>	Unlock and access files	sudo ./lindlocker.sh unlock /root/.ssh
-close <dir>	Re-lock directory	sudo ./lindlocker.sh close /root/.ssh
-remove <dir>	Remove encryption completely	sudo ./lindlocker.sh remove /root/.ssh
-status	Show all encrypted directories	sudo ./lindlocker.sh status
-Management Commands:
-Command	Description	Example
-change-password <dir>	Change directory password	sudo ./lindlocker.sh change-password /root/.ssh
-recovery	Show emergency recovery instructions	sudo ./lindlocker.sh recovery
-export [file]	Export recovery info	sudo ./lindlocker.sh export ~/recovery.txt
-help	Show help message	sudo ./lindlocker.sh help
-version	Show version	sudo ./lindlocker.sh version
 🛡️ Security Features
 What Makes LinDLocker Secure?
 

@@ -1,5 +1,7 @@
 # 🔒 LinDLocker ( Linux Directory Locker )
 
+![lindlocker](https://raw.githubusercontent.com/thepiyushkumarshukla/LinDLocker/refs/heads/main/lindlocker.png)
+
 **Requires:** Root access, Linux kernel with LUKS support
 
 ## 🚀 What is LinDLocker?

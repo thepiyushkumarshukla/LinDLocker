@@ -21,15 +21,14 @@ LinDLocker is a powerful bash script that encrypts existing directories with mil
 ### Step 1: Download the Script
 ```bash
 git clone https://github.com/yourusername/lindlocker.git
+
 cd lindlocker
 
 Step 2: Install Dependencies
-bash
 
 sudo ./setup.sh
 
 Step 3: Make Script Executable
-bash
 
 chmod +x lindlocker
 ```
